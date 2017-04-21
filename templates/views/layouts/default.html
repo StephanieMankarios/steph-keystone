@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<!-- favicon icon -->
-	<link rel="shortcut icon" href="assets/images/index.html">
+	<link rel="shortcut icon" href="images/index.html">
 	<title>Stephanie Mankarios - Self Development Coach and Mindfulness Yoga &amp; Meditation Teacher</title>
 
 	<title>{{ title|default("Stephanie Mankarios - Self Development Coach and Mindfulness Yoga &amp; Meditation Teacher") }}</title>
@@ -47,59 +47,10 @@
 
 
 	<!-- Favicon -->
-	<link rel="icon" type="image/png" href="assets/images/favicon.png">
+	<link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 
 <body>
-
-
-
-<!--<div id="header" class="container">
-
-			{# Customise your site"s navigation by changing the navLinks Array in ./routes/middleware.js
-			   ... or completely change this header to suit your design. #}
-			<div role="navigation" class="navbar navbar-default">
-				<div class="container-fluid">
-					<div class="navbar-header">
-						<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="/">steph-keystone</a>
-					</div>
-
-
-
-					<div class="collapse navbar-collapse">
-						<ul class="nav navbar-nav navbar-left">
-							{% for link in navLinks %}
-								<li class="{{ 'active' if link.key == section else '' }}">
-									<a href="{{ link.href }}">{{ link.label }}</a>
-								</li>
-							{% endfor %}
-						</ul>
-						<ul class="nav navbar-nav navbar-right">
-							{% if user %}
-								{% if user.canAccessKeystone %}
-								<li><a href="/keystone">Open Keystone</a></li>
-								{% endif %}
-								<li><a href="/keystone/signout">Sign Out</a></li>
-							{% else %}
-								<li><a href="/keystone/signin">Sign In</a></li>
-							{% endif %}
-						</ul>
-					</div>
-
-
-
-				</div>
-			</div>
-		</div>-->
-
-
-
 
 	<nav class="navbar main-menu navbar-default" style="box-sizing: content-box;">
 		<div class="container">
@@ -113,28 +64,19 @@
                     <span class="icon-bar"></span>
                 </button>
 					<a class="navbar-brand" href="index.html">
-						<img src="public/images/logo.png"
+						<img src="images/logo.png"
 								alt="logo"></a>
 				</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav text-uppercase">
-						<!--<li><a href="index.html">HOME</a></li>-->
-						<!--<li><a href="about.html">ABOUT</a></li>-->
-						<!--<li><a href="contact.html">CONTACT</a></li>-->
-						<!--<li><a href="work-with-me.html">WORK WITH ME</a></li>-->
-						<!--<li><a href="blog">BLOG</a></li>-->
-					</ul>
-
-				{# Customize your site"s navigation by changing the navLinks Array in ./routes/middleware.js
+					{# Customize your site"s navigation by changing the navLinks Array in ./routes/middleware.js
 			   ... or completely change this header to suit your design. #}
-					<ul class="nav navbar-nav navbar-left">
-							{% for link in navLinks %}
+					<ul class="nav navbar-nav text-uppercase">
+						{% for link in navLinks %}
 								<li class="{{ 'active' if link.key == section else '' }}">
 									<a href="{{ link.href }}">{{ link.label }}</a>
 								</li>
 							{% endfor %}
-						</ul>
-						<ul class="nav navbar-nav navbar-right">
+							
 							{% if user %}
 								{% if user.canAccessKeystone %}
 								<li><a href="/keystone">Open Keystone</a></li>
@@ -143,7 +85,7 @@
 							{% else %}
 								<li><a href="/keystone/signin">Sign In</a></li>
 							{% endif %}
-						</ul>
+					</ul>
 
 
 
@@ -242,12 +184,12 @@
 	</footer>
 
 	
-	<script type="text/javascript" src="assets/js/jquery-1.11.3.min.js"></script>
-	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
-	<script type="text/javascript" src="assets/js/jquery.stickit.min.js"></script>
-	<script type="text/javascript" src="assets/js/menu.js"></script>
-	<script type="text/javascript" src="assets/js/scripts.js"></script>
+	<script type="text/javascript" src="/js/jquery/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript"src="/js/bootstrap/bootstrap-3.3.5.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.stickit.min.js"></script>
+	<script type="text/javascript" src="js/menu.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
 
 	{# The KeystoneJS Content Editor provides support for ks-editable data attributes,
 		which generate links to edit content for users who can access Keystone #}
