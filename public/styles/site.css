@@ -6,7 +6,6 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,600");
-@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic");
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 html {
   font-family: sans-serif;
@@ -5824,20 +5823,6 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
-#header {
-  margin-top: 30px; }
-
-#footer {
-  margin-top: 30px;
-  border-top: 1px solid #eeeeee;
-  padding-top: 30px;
-  color: #777777; }
-
-.gallery-image img {
-  display: block;
-  max-width: 100%;
-  height: auto; }
-
 /*!
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license - http://opensource.org/licenses/MIT
@@ -8504,10 +8489,6 @@ Table of contents
 24. header page
 
 -------------------------------------------------------------------*/
-@font-face {
-  font-family: libre-baskerville-regular;
-  src: url(../fonts/LibreBaskerville-Regular.otf); }
-
 /*--------------------------------------
     elements
 --------------------------------------*/
@@ -8636,7 +8617,7 @@ header
 
 .i_con a i {
   font-size: 14px;
-  padding: 25px 10px;
+  padding: 30px 15px 5px 0;
   color: #AAAAAA;
   line-height: 35px; }
 
@@ -8770,7 +8751,7 @@ header
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 25px 30px;
+  padding: 30px 30px 5px 0;
   font-size: 12px;
   letter-spacing: 1px; }
 
@@ -9434,7 +9415,7 @@ blog css
 .testimonials-header, .post-content, .work-with-me-headers {
   font-size: 1.6rem; }
   .testimonials-header h1, .post-content h1, .work-with-me-headers h1 {
-    font-family: "libre-baskerville-regular"; }
+    font-family: 'Libre Baskerville', serif; }
   .testimonials-header h1::after, .post-content h1::after, .work-with-me-headers h1::after {
     border-bottom: 6px solid #00BFF3;
     content: "";
