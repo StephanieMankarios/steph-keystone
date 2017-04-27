@@ -8,10 +8,17 @@
 					<div class="post-thumb">
 							{% if post.image.exists %}
 								<img src="{{ post._.image.fit(250,250) }}" alt="">
+
+								<a href="/blog/post/{{ post.slug }}" class="post-thumb-overlay text-center">
+									<div class="text-uppercase text-center">View Post</div>
+								</a>
 							{% endif %}
+
+
+
 					</div><!-- /.post-thumb -->
 						
-				<div class="post-content">
+					<div class="post-content">
 						<header class="entry-header text-center text-uppercase">
 							<h6>Health &amp; Wellness</h6>
 							<h1 class="entry-title"><a href="/blog/post/{{ post.slug }}">{{ post.title }}</a></h1>
@@ -154,11 +161,6 @@
 							</div><!-- /.row -->
 						</div><!-- /.container -->
 				</div><!-- /.main-content --> 
-
-
-
-
-
 
 {% endblock %}
 
