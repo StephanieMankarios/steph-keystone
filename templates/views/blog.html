@@ -20,7 +20,11 @@
 						
 					<div class="post-content">
 						<header class="entry-header text-center text-uppercase">
-							<h6>Health &amp; Wellness</h6>
+
+							{% if post.categories and post.categories.length %}
+								<br>{% for cat in post.categories %}<h6><a href="/blog/{{ cat.key }}">{{ cat.name }}</a></h6>{% if loop.index < post.categories.length %}, {% endif %}{% endfor %}
+							{% endif %}
+
 							<h1 class="entry-title"><a href="/blog/post/{{ post.slug }}">{{ post.title }}</a></h1>
 						</header>
 
@@ -39,9 +43,6 @@
 								<p class="lead text-muted">
 									{% if post.publishedDate %}
 										<span class="social-share-title pull-left text-capitalize">{{ post._.publishedDate.format("MMMM Do, YYYY") }}</span>
-									{% endif %}
-									{% if post.categories and post.categories.length %}
-										<br>in {% for cat in post.categories %}<a href="/blog/{{ cat.key }}">{{ cat.name }}</a>{% if loop.index < post.categories.length %}, {% endif %}{% endfor %}
 									{% endif %}
 									<!--{% if post.author %}-->
 										<!--<br>by {{ post.author.name.first }}-->
