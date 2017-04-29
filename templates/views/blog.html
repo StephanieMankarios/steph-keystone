@@ -1,4 +1,4 @@
-{% extends "layouts/default.html" %}
+{% extends "layouts/_default.html" %}
 
 {% macro blogPost(post) %}
 
@@ -50,15 +50,12 @@
 	{% endmacro %}
 
 
-
-
 	{% block intro %}
 		<div class="container">
 			{% set title = ( data.category.name if data.category else "Blog" ) %}
 			<h1>{{ title }}</h1>
 		</div>
 	{% endblock %}
-
 
 
 						{% block content %}
@@ -149,7 +146,7 @@
 									</div><!--  /.col-sm-4 col-md-3 -->
 								{% endif %}
 
-						{% include "layouts/sidebar.html" %}
+						{% include "layouts/_sidebar.html" %}
 
 							</div><!-- /.row -->
 						</div><!-- /.container -->
