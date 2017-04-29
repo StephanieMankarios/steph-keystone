@@ -2,36 +2,28 @@
 
 {% macro blogPost(post) %}
 
-
 	<div class="post" data-ks-editable="editable(user, { list: " Post ", id: post.id })">
 			<article>
 					<div class="post-thumb">
 							{% if post.image.exists %}
 								<img src="{{ post._.image.fit(250,250) }}" alt="">
-
 								<a href="/blog/post/{{ post.slug }}" class="post-thumb-overlay text-center">
 									<div class="text-uppercase text-center">View Post</div>
 								</a>
 							{% endif %}
-
-
-
 					</div><!-- /.post-thumb -->
 						
 					<div class="post-content">
 						<header class="entry-header text-center text-uppercase">
-
 							{% if post.categories and post.categories.length %}
-								<br>{% for cat in post.categories %}<h6><a href="/blog/{{ cat.key }}">{{ cat.name }}</a></h6>{% if loop.index < post.categories.length %}, {% endif %}{% endfor %}
+								{% for cat in post.categories %}<h6><a href="/blog/{{ cat.key }}">{{ cat.name }}</a></h6>{% if loop.index < post.categories.length %}, {% endif %}{% endfor %}
 							{% endif %}
-
 							<h1 class="entry-title"><a href="/blog/post/{{ post.slug }}">{{ post.title }}</a></h1>
 						</header>
 
 						<div class="entry-content">
 							<p>{{ post.content.brief|safe }}</p>
 						</div><!-- /.entry-content -->
-
 
 						{% if post.content.extended %}
 											<div class="btn-continue-reading text-center text-uppercase">
