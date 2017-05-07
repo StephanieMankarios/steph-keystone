@@ -1,53 +1,36 @@
-{% extends "layouts/default.html" %}
+{% extends "layout.html" %} 
+
 
 {% block content %}
-
-
-
-
-
 
 <div class="main-content">
   <div class="container">
     <div class="row">
       <div class="col-md-8">
-					<p>
-						<a href="/blog">&larr; back to the blog</a>
-					</p>
-					<hr>
         <article class="post">
-
           <div class="post-thumb">
-					{% if data.post.image.exists %}
-            <img class="img-responsive" src="{{ data.post._.image.fit(750,450) }}">
+            <img src="assets/images/blog/therapist.jpg" alt="">
           </div>
-					{% endif %}
-
           <div class="post-content">
             <header class="entry-header text-center text-uppercase">
-              <h6>
-								{% if data.post.categories and data.post.categories.length %}
-									{% for cat in data.post.categories %}<a href="/blog/{{ cat.key }}">{{ cat.name }}</a>{% if loop.index < data.post.categories.length %}, {% endif %}{% endfor %}
-								{% endif %}
-							</h6>
-              <h1 class="entry-title">{{ data.post.title }}</h1>
+              <h6>Self Development</h6>
+              <h1 class="entry-title">3 Reasons Why Everyone Needs A Therapist</h1>
             </header>
             <div class="entry-content">
-							{{ data.post.content.full|safe }}
+
+              <p>For a long time, there was a stigma around therapy. I even noticed this when recently watching an episode of  Gilmore Girls (yes you can laugh at me:), where Lorelai said "A therapist? Why, have you gone crazy?" </p>
+              
+              <p>There was this idea that you either needed to be "crazy" to see a therapist, or something really bad had to happen to you. </p> 
+
             </div>
 
             <div class="social-share">
-              <span class="social-share-title pull-left text-capitalize">
-								{% if data.post.publishedDate %}
-									{{ data.post._.publishedDate.format("MMMM Do, YYYY") }}
-								{% endif %}
-							</span>
+              <span class="social-share-title pull-left text-capitalize">April 6, 2017</span>
             </div>
           </div>
         </article>
-
-
-<div id="disqus_thread"></div>
+      
+      <div id="disqus_thread"></div>
 <script>
 
 /**
@@ -67,13 +50,12 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
-
+      
+      
       </div><!-- /.col-md-8 -->
-				{% include "layouts/_sidebar.html" %}
+      {% include "partials/sidebar.html" %}
     </div><!-- /.row -->
   </div><!-- /.container -->
-</div><!-- /.main-content -->
+</div><!-- /.main-content-->
 
-{% endblock %}
+{% endblock %}                     
