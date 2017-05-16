@@ -9412,17 +9412,20 @@ blog css
     padding: 0 0 0 30px;
     margin: 0; }
 
-.testimonials-header, .post-content, .work-with-me-headers {
+.testimonials-header, .post-content, .work-with-me-headers, .category-title {
   font-size: 1.6rem; }
-  .testimonials-header h1, .post-content h1, .work-with-me-headers h1 {
+  .testimonials-header h1, .post-content h1, .work-with-me-headers h1, .category-title h1 {
     font-family: 'Libre Baskerville', serif; }
-  .testimonials-header h1::after, .post-content h1::after, .work-with-me-headers h1::after {
+  .testimonials-header h1::after, .post-content h1::after, .work-with-me-headers h1::after, .category-title h1::after {
     border-bottom: 6px solid #00BFF3;
     content: "";
     display: block;
     margin: 0 auto 40px;
     padding-bottom: 10px;
     width: 20%; }
+
+.category-title {
+  padding-top: 40px; }
 
 .decoration a {
   color: #60c7eb;

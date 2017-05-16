@@ -1212,20 +1212,25 @@ blog css
     }
 }
 
-.testimonials-header, .post-content, .work-with-me-headers {
+.testimonials-header, .post-content, .work-with-me-headers, .category-title {
     font-size: 1.6rem;
         h1 { // ,h3
    font-family: 'Libre Baskerville', serif;
     }
     h1::after{ // ,h3::after
-        border-bottom: 6px solid $primary-color;
-  content: "";
-  display: block;
-  margin: 0 auto 40px;
-  padding-bottom: 10px;
-  width: 20%;
+			border-bottom: 6px solid $primary-color;
+			content: "";
+			display: block;
+			margin: 0 auto 40px;
+			padding-bottom: 10px;
+			width: 20%;
     }
 }
+
+.category-title {
+	padding-top: 40px;
+}
+
 
 .decoration a {
     color: #60c7eb;
