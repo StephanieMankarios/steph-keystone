@@ -181,7 +181,46 @@
 							</ul>
 						</aside>
 -->
+
+
+
+
 		<aside class="widget sidebar sidebar-primary widget-area">
+			<section id="text-41" class="widget-categories widget_text">
+				<div class="widget-wrap">
+					<h3 class="widgettitle widget-title-categories" style="margin-bottom: 25px;">I Want to Read&#8230;</h3>
+					<div class="textwidget">
+						<div class="read">
+							{% if data.categories.length %} {% set class = ( "active" if not data.category else "" ) %}
+							<!--<a href="/blog" class="{{ class }} list-group-item">All Categories</a> -->
+							{% for cat in data.categories %}
+							 {% set class = ( "active" if data.category and data.category.id == cat.id else "" ) %} 
+							{% if cat.key === "self-development" %}
+							<div class="read-1">
+								<a class="block" href="/blog"><img src="/images/social-media/tree-of-life.png" alt="self development" /> <span class="read-link">self<br />development</span></a>
+							</div>
+							{% endif %} {% if cat.key === "health-and-wellness" %}
+							<div class="read-2">
+								<a class="block" href="/blog"><img src="/images/social-media/yoga.png" alt="health &amp; wellness" /> <span class="read-link">health<br />&amp; wellness</span></a>
+							</div>
+							{% endif %} {% if cat.key === "spirituality" %}
+							<div class="read-3">
+								<a class="block" href="/blog"><img src="/images/social-media/cairn.png" alt="spirituality" /> <span class="read-link">Spirituality</span></a>
+							</div>
+							{% endif %} {% if cat.key === "happiness-and-love" %}
+							<div class="read-4">
+								<a class="block" href="/blog"><img src="/images/social-media/heart.png" alt="happiness &amp; love" /> <span class="read-link">happiness<br />&amp; love</span></a>
+							</div>
+							{% endif %} {% endfor %} {% endif %}
+						</div>
+					</div>
+				</div>
+			</section>
+		</aside>
+
+
+
+		<!--<aside class="widget sidebar sidebar-primary widget-area">
 			<section id="text-41" class="widget-categories widget_text">
 				<div class="widget-wrap">
 					<h3 class="widgettitle widget-title-categories" style="margin-bottom: 25px;">I Want to Read&#8230;</h3>
@@ -203,7 +242,11 @@
 					</div>
 				</div>
 			</section>
-		</aside>
+		</aside>-->
+
+
+
+
 		<!--<aside class="widget pos-padding">
 			<h3 class="widget-title text-uppercase text-center">Follow @stephaniemankarios</h3>
 			<div class="instagram-follow">
