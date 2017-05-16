@@ -4,7 +4,7 @@
 			<article>
 					<div class="post-thumb">
 							{% if post.image.exists %}
-								<img src="{{ post._.image.fit(250,250) }}" alt="">
+								<img src="{{ post._.image.fit() }}" alt="">
 								<a href="/blog/post/{{ post.slug }}" class="post-thumb-overlay text-center">
 									<div class="text-uppercase text-center">View Post</div>
 								</a>
