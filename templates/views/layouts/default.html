@@ -14,11 +14,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<!-- favicon icon -->
-	<link rel="shortcut icon" href="images/index.html">
-	<title>Stephanie Mankarios - Self Development Coach and Mindfulness Yoga &amp; Meditation Teacher</title>
-
+	<link rel="shortcut icon" href="/images/index.html">
+	
 	<title>{{ title|default("Stephanie Mankarios - Self Development Coach and Mindfulness Yoga &amp; Meditation Teacher") }}</title>
-
 
 
 	<!-- common css -->
@@ -45,7 +43,6 @@
 <!-- custom fonts -->
 <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-
 
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" href="images/favicon.png">
@@ -179,12 +176,19 @@
 	</footer>
 
 	
-	<script type="text/javascript" src="/js/jquery/jquery-1.11.3.min.js"></script>
-	<script type="text/javascript"src="/js/bootstrap/bootstrap-3.3.5.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<script type="text/javascript"src="js/bootstrap/bootstrap-3.3.5.min.js"></script>
 	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
-	<script type="text/javascript" src="js/jquery.stickit.min.js"></script>
+	<!--<script type="text/javascript" src="js/jquery.stickit.min.js"></script>-->
 	<script type="text/javascript" src="js/menu.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
+
+	<script src="js/tipuesearch/tipuesearch_content.js"></script>
+	<!--<link rel="stylesheet" href="js/tipuesearch/css/tipuesearch.css">-->
+	<script src="js/tipuesearch/tipuesearch_set.js"></script>
+	<script src="js/tipuesearch/tipuesearch.min.js"></script>
+
 
 	{# The KeystoneJS Content Editor provides support for ks-editable data attributes,
 		which generate links to edit content for users who can access Keystone #}
@@ -198,5 +202,16 @@
 		{% block js %}{% endblock %}
 
 </body>
+
+
+<script>
+$(document).ready(function() {
+     $('#tipue_search_input').tipuesearch({
+          'mode': 'live'
+     });
+});
+</script>
+
+
 
 </html>
