@@ -16,8 +16,9 @@
 	<!-- favicon icon -->
 	<link rel="shortcut icon" href="/images/index.html">
 	
-	<title>{{ title|default("Stephanie Mankarios - Self Development Coach and Mindfulness Yoga &amp; Meditation Teacher") }}</title>
-
+		{% block title %}
+			<title>{{ title }}</title>
+		{% endblock %}
 
 	<!-- common css -->
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -36,8 +37,7 @@
 		{% block css %}{% endblock %}
 
 		{# Add any other template-specific HEAD tags by extending the head block #}
-		{% block head %}{% endblock %}
-
+		{% block head %} {% endblock %}
 
 
 <!-- custom fonts -->
@@ -175,7 +175,14 @@
 		</div>
 	</footer>
 
-	
+
+	{# The KeystoneJS Content Editor provides support for ks-editable data attributes,
+		which generate links to edit content for users who can access Keystone #}
+		{% if user and user.canAccessKeystone %}
+			<script src="/keystone/js/content/editor.js"></script>
+		{% endif %}
+
+		{# Add scripts that are globally required by your site here. #}
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 	<script type="text/javascript"src="js/bootstrap/bootstrap-3.3.5.min.js"></script>
@@ -190,13 +197,6 @@
 	<script src="js/tipuesearch/tipuesearch.min.js"></script>
 
 
-	{# The KeystoneJS Content Editor provides support for ks-editable data attributes,
-		which generate links to edit content for users who can access Keystone #}
-		{% if user and user.canAccessKeystone %}
-			<script src="/keystone/js/content/editor.js"></script>
-		{% endif %}
-
-		{# Add scripts that are globally required by your site here. #}
 
 		{# Include template-specific javascript files by extending the js block #}
 		{% block js %}{% endblock %}
