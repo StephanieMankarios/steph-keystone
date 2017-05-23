@@ -30,13 +30,11 @@
 	<meta name="keywords" content="Node.js, development, api">
 {% endif %}    
 
-	<!-- favicon icon -->
-	<link rel="shortcut icon" href="/images/index.html">
-	
 		{% block title %}
 			<title>{{ title }}</title>
 		{% endblock %}
 
+		
 	<!-- common css -->
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
@@ -51,7 +49,9 @@
 
 
 		{# Include template-specific stylesheets by extending the css block #}
-		{% block css %}{% endblock %}
+		{% block css %}
+		{% endblock %}
+
 
 		{# Add any other template-specific HEAD tags by extending the head block #}
 		{% block head %} {% endblock %}
@@ -62,7 +62,7 @@
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 
 	<!-- Favicon -->
-	<link rel="icon" type="image/png" href="images/favicon.png">
+	<link rel="icon" type="image/png" href="/images/favicon.png">
 </head>
 
 <body>
@@ -79,7 +79,7 @@
                     <span class="icon-bar"></span>
                 </button>
 					<a class="navbar-brand" href="/">
-						<img src="images/logo.png"
+						<img src="/images/logo.png"
 								alt="logo"></a>
 				</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -169,13 +169,8 @@
 </section>
 	
 	
-	
-	
-	
-	
-	
-	<!--footer start-->
-	<footer class="footer-widget-section">
+<!--footer start-->
+<footer class="footer-widget-section">
 
 
 <div class="testimonials">
@@ -203,23 +198,20 @@
 
 		{# Add scripts that are globally required by your site here. #}
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-	<script type="text/javascript"src="js/bootstrap/bootstrap-3.3.5.min.js"></script>
-	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
-	<script src="js/back-to-top.js"></script>
-	<!--<script type="text/javascript" src="js/jquery.stickit.min.js"></script>-->
-	<script type="text/javascript" src="js/menu.js"></script>
-	<script type="text/javascript" src="js/scripts.js"></script>
-
-	<script src="js/tipuesearch/tipuesearch_content.js"></script>
-	<!--<link rel="stylesheet" href="js/tipuesearch/css/tipuesearch.css">-->
-	<script src="js/tipuesearch/tipuesearch_set.js"></script>
-	<script src="js/tipuesearch/tipuesearch.min.js"></script>
+	<script type="text/javascript"src="/js/bootstrap/bootstrap-3.3.5.min.js"></script>
+	<script type="text/javascript" src="/js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="/js/back-to-top.js"></script>
+	<!--<script type="text/javascript" src="/js/jquery.stickit.min.js"></script>-->
+	<script type="text/javascript" src="/js/menu.js"></script>
+	<script type="text/javascript" src="/js/scripts.js"></script>
+	<script type="text/javascript" src="/js/tipuesearch/tipuesearch_content.js"></script>
+	<!--<link rel="stylesheet" href="/js/tipuesearch/css/tipuesearch.css">-->
+	<script type="text/javascript" src="/js/tipuesearch/tipuesearch_set.js"></script>
+	<script type="text/javascript" src="/js/tipuesearch/tipuesearch.min.js"></script>
 
 
-
-		{# Include template-specific javascript files by extending the js block #}
-		{% block js %}{% endblock %}
+	{# Include template-specific javascript files by extending the js block #}
+	{% block js %}{% endblock %}
 
 </body>
 
