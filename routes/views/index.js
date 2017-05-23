@@ -2,10 +2,6 @@ var keystone = require('keystone'),
 	async = require('async'),
 	blog = require('./blog');
 	
-var async = require('async');
-var blog = require('./blog');
-
-
 exports = module.exports = function (req, res) {
 
 	var view = new keystone.View(req, res);
@@ -18,7 +14,6 @@ exports = module.exports = function (req, res) {
 
 	// LOADS BLOG POSTS
 	// Init locals
-	locals.section = 'home';
 	locals.filters = {
 		category: req.params.category,
 	};
