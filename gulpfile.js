@@ -1,10 +1,11 @@
 var gulp = require('gulp');
-var watch = require('gulp-watch');
 var sass = require('gulp-sass');
+var browserSync = require('browser-sync').create();
+var prefix = require('gulp-autoprefixer');
+var rename = require('gulp-rename');
 var shell = require('gulp-shell');
 var sourcemaps = require('gulp-sourcemaps');
-var bs = require('browser-sync').create();
-
+var cssclean = require('gulp-clean-css');
 
 var paths = {
 	'src': ['./models/**/*.js', './routes/**/*.js', 'keystone.js', 'package.json'],
@@ -13,39 +14,43 @@ var paths = {
 		output: './public/styles/'
 	},
 	'html': {
-    all: './templates/**/*.html'
+		all: './templates/views/**/*.html'
 	}
 };
 
-gulp.task('html', function () {
-	gulp.src('paths.html.all')
-  .pipe(bs.stream());
-});
-
+// create sass tasks
 gulp.task('sass', function () {
-	gulp.src(paths.style.all)
-		.pipe(sass().on('error', sass.logError))
-    .pipe(sourcemaps.write())
+	return gulp.src(paths.style.all)
+		.pipe(sourcemaps.init())
+		.pipe(sass())
+		.pipe(rename({
+			suffix: '.min'
+		}))
+		.pipe(cssclean())
+		.pipe(prefix('last 2 versions', '> 1%', 'ie 8', 'Android 2', 'Firefox ESR'))
+		.pipe(sourcemaps.write(''))
 		.pipe(gulp.dest(paths.style.output))
-		.pipe(bs.stream());
+		.pipe(browserSync.stream({
+			match: '/public/styles/*.css'
+		}))
+		.on('error', function (err) {
+			console.error('Error!', err.message);
+		});
 });
 
-gulp.task('watch:sass', function () {
-	gulp.watch(paths.style.all, ['sass']);
-});
+gulp.task('serve', ['sass'], function () {
 
-gulp.task('watch:html', function () {
-	gulp.watch(paths.html.all, ['html']);
-});
-
-gulp.task('browser-sync', function () {
-	bs.init({
+	browserSync.init({
 		proxy: 'http://localhost:3000',
 		port: '4000'
 	});
+
+	gulp.watch(paths.style.all, ['sass']);
+	gulp.watch(['./public/styles/*.css']).on('change', browserSync.reload);
+	// gulp.watch(['./public/styles/*.css', 'assets/javascript/*.js']).on('change', browserSync.reload);
 });
 
 gulp.task('runKeystone', shell.task('nodemon'));
 
-gulp.task('watch', ['watch:sass', 'watch:html']);
-gulp.task('default', ['watch', 'runKeystone', 'browser-sync']);
+// default task (just run gulp)
+gulp.task('default', ['runKeystone', 'serve']);
