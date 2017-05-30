@@ -10032,7 +10032,7 @@ html {
   /* 10px browser default */ }
 
 /* Widgets
----------------------------------------------------------------------------------------------------- */
+------------------------------------------------------- */
 .widget-categories ol > li {
   list-style-position: inside;
   list-style-type: decimal;
@@ -10045,7 +10045,7 @@ html {
   padding: 0; }
 
 /* Sidebar
----------------------------------------------------------------------------------------------------- */
+------------------------------------------------------- */
 .sidebar {
   font-size: 18px;
   font-size: 1.8rem; }
@@ -10104,9 +10104,8 @@ html {
   padding: 8px !important; }
 
 /* I Want to Read...
---------------------------------------------- */
+------------------------------------------------------- */
 .sidebar .read {
-  border: 5px solid #f6f6f6;
   overflow: hidden;
   text-align: center; }
 
@@ -10142,14 +10141,6 @@ html {
   display: block;
   float: left;
   width: 50%; }
-
-.sidebar .read-1,
-.sidebar .read-2 {
-  border-bottom: 5px solid #f6f6f6; }
-
-.sidebar .read-2,
-.sidebar .read-4 {
-  border-left: 5px solid #f6f6f6; }
 
 .sidebar .read-1 img {
   height: 72px; }
@@ -10944,14 +10935,6 @@ html {
       margin-right: 0; }
   .jumbotron.home-page .text-center p:nth-child(2), .jumbotron.home-page .text-center p:nth-child(3), .jumbotron.home-page .text-center p:nth-child(5) {
     font-size: 1.5rem; }
-  .sidebar .read-1 img {
-    width: 44%; }
-  .sidebar .read-2 img {
-    width: 21%; }
-  .sidebar .read-3 img {
-    width: 44%; }
-  .sidebar .read-4 img {
-    width: 44%; }
   .subscribe-form .input-group-btn .btn, .input-group .form-control {
     font-size: 1rem; }
   .subscribe-form .input-group-btn .btn {
