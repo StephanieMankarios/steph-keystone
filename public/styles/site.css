@@ -9991,9 +9991,6 @@ hr.hr-style:after {
   background-image: url("../images/photos/hero-home.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-  height: 130vh;
-  margin-top: 0px;
-  margin-bottom: 8px;
   font-family: libre-baskerville-regular; }
   .jumbotron.home-page a {
     background-color: #00BFF3;
@@ -10004,34 +10001,22 @@ hr.hr-style:after {
 .jumbotron.about-page {
   background-image: url("../images/photos/about-top.jpg");
   background-size: 100% auto;
-  background-repeat: no-repeat;
-  height: 130vh;
-  margin-top: 0px;
-  margin-bottom: 8px; }
+  background-repeat: no-repeat; }
   .jumbotron.about-page p {
-    font-size: 7rem;
     font-family: libre-baskerville-regular; }
 
 .jumbotron.contact-page {
   background-image: url("../images/photos/contact.jpg");
   background-size: 100% auto;
-  background-repeat: no-repeat;
-  height: 130vh;
-  margin-top: 0px;
-  margin-bottom: 8px; }
+  background-repeat: no-repeat; }
   .jumbotron.contact-page p {
-    font-size: 7rem;
     font-family: libre-baskerville-regular; }
 
 .jumbotron.work-with-me-page {
   background-image: url("../images/photos/work-with-me.jpg");
   background-size: 100% auto;
-  background-repeat: no-repeat;
-  height: 100vh;
-  margin-top: 0px;
-  margin-bottom: 8px; }
+  background-repeat: no-repeat; }
   .jumbotron.work-with-me-page p {
-    font-size: 7rem;
     font-family: libre-baskerville-regular; }
 
 .navbar {
@@ -10645,8 +10630,6 @@ html {
 /* end of 12-class-card/dark slate green */
 /* lg */
 @media (min-width: 1400px) {
-  .index-header {
-    margin-top: 120px; }
   .jumbotron.home-page {
     min-height: 900px; }
     .jumbotron.home-page .text-center p:first-child {
@@ -10671,6 +10654,8 @@ html {
     .jumbotron.work-with-me-page p {
       font-size: 6.5rem;
       margin-top: 465px; }
+  .index-header {
+    margin-top: 120px; }
   .show-search {
     right: 20%; }
   .nav > li > a:first-child {
@@ -10684,10 +10669,6 @@ html {
 /* lg/md */
 /* 1366 x 768 */
 @media (min-width: 1200px) and (max-width: 1399px) {
-  .index-header {
-    margin-top: 120px; }
-  .navbar-brand img {
-    height: 60px; }
   .jumbotron.home-page {
     min-height: 900px; }
     .jumbotron.home-page .text-center p:first-child {
@@ -10713,6 +10694,10 @@ html {
       font-size: 6.5rem;
       margin-top: 455px;
       margin-left: 35px; }
+  .index-header {
+    margin-top: 120px; }
+  .navbar-brand img {
+    height: 60px; }
   .i_con, .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     float: right;
     position: relative; }
@@ -10721,9 +10706,6 @@ html {
 
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
-  .index-header {
-    margin-top: 75px;
-    margin-left: 25px; }
   .jumbotron.home-page {
     height: 78vh; }
     .jumbotron.home-page .text-center p:first-child {
@@ -10750,6 +10732,9 @@ html {
       font-size: 5rem;
       margin-top: 315px;
       margin-right: 50px; }
+  .index-header {
+    margin-top: 75px;
+    margin-left: 25px; }
   .nav > li > a:first-child {
     padding-left: 0; }
   .i_con {
@@ -10762,10 +10747,6 @@ html {
 
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
-  .index-header {
-    margin-top: 60px; }
-  .nav > li > a:first-child {
-    padding-left: 0; }
   .jumbotron.home-page {
     height: 71vh; }
     .jumbotron.home-page .text-center p:first-child {
@@ -10790,6 +10771,10 @@ html {
     .jumbotron.work-with-me-page p {
       font-size: 4rem;
       margin-top: 190px; }
+  .index-header {
+    margin-top: 60px; }
+  .nav > li > a:first-child {
+    padding-left: 0; }
   .btn-group-lg > .btn, .btn-lg, .btn-group-lg > .btn {
     font-size: 1.2rem;
     padding: 15px 30px; }
@@ -10911,14 +10896,6 @@ html {
 
 /* XS Portrait */
 @media (max-width: 479px) {
-  .sidebar .read-1 img {
-    width: 44%; }
-  .sidebar .read-2 img {
-    width: 21%; }
-  .sidebar .read-3 img {
-    width: 44%; }
-  .sidebar .read-4 img {
-    width: 44%; }
   .jumbotron.home-page {
     height: 70vh; }
     .jumbotron.home-page .text-center {
@@ -10934,15 +10911,6 @@ html {
         width: 85%;
         font-size: 0.8rem;
         padding: 0; }
-  .jumbotron.home-page .text-center p:nth-child(2), .jumbotron.home-page .text-center p:nth-child(3), .jumbotron.home-page .text-center p:nth-child(5) {
-    font-size: 1.5rem; }
-  .subscribe-form .input-group-btn .btn, .input-group .form-control {
-    font-size: 1rem; }
-  .subscribe-form .input-group-btn .btn {
-    padding-left: 15px;
-    padding-right: 15px; }
-  .input-group-lg > .form-control, .input-group-lg > .input-group-addon, .input-group-lg > .input-group-btn > .btn {
-    height: 33px; }
   .jumbotron.home-page, .jumbotron.contact-page {
     height: 37vh; }
     .jumbotron.home-page p, .jumbotron.contact-page p {
@@ -10964,6 +10932,23 @@ html {
     .jumbotron.work-with-me-page p {
       margin-top: 125px;
       margin-right: 0; }
+  .jumbotron.home-page .text-center p:nth-child(2), .jumbotron.home-page .text-center p:nth-child(3), .jumbotron.home-page .text-center p:nth-child(5) {
+    font-size: 1.5rem; }
+  .sidebar .read-1 img {
+    width: 44%; }
+  .sidebar .read-2 img {
+    width: 21%; }
+  .sidebar .read-3 img {
+    width: 44%; }
+  .sidebar .read-4 img {
+    width: 44%; }
+  .subscribe-form .input-group-btn .btn, .input-group .form-control {
+    font-size: 1rem; }
+  .subscribe-form .input-group-btn .btn {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .input-group-lg > .form-control, .input-group-lg > .input-group-addon, .input-group-lg > .input-group-btn > .btn {
+    height: 33px; }
   .btn-group-lg > .btn,
   .btn-lg,
   .btn-group-lg > .btn {
