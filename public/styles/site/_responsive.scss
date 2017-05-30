@@ -1,5 +1,7 @@
-/* lg */
 
+/* ----------------------------------------------------------------------
+	LARGE
+ -----------------------------------------------------------------------*/
 @media (min-width: 1400px) {
 	
 	.jumbotron.home-page {
@@ -17,6 +19,7 @@
 	.jumbotron.about-page {
 		min-height: 900px;
 		p {
+			font-size: 8rem;
 			margin-top: 350px;
 			margin-right: 300px;
 		}
@@ -63,8 +66,9 @@
 
 }
 
-
-/* lg/md */
+/* ----------------------------------------------------------------------
+	LARGE/MEDIUM
+ -----------------------------------------------------------------------*/
 /* 1366 x 768 */
 @media (min-width: 1200px) and (max-width: 1399px) {
 
@@ -127,12 +131,13 @@
 }
 
 
-/* md */
-
+/* ----------------------------------------------------------------------
+	MEDIUM
+ -----------------------------------------------------------------------*/
 @media (min-width: 992px) and (max-width: 1199px) {
 	
 	.jumbotron.home-page {
-		height: 78vh;
+		// height: 78vh;
 		.text-center p:first-child {
 			font-size: 5rem;
 			line-height: 5.5rem;
@@ -147,6 +152,7 @@
 	.jumbotron.about-page {
 		height: 78vh;
 				p {
+			font-size: 8rem;
 			margin-top: 250px;
 			margin-right: 300px;
 		}
@@ -162,7 +168,7 @@
 	}
 	
 	.jumbotron.work-with-me-page {
-		height: 43vh;
+		// height: 43vh;
 		p {
 			font-size: 5rem;
 			margin-top: 315px;
@@ -197,7 +203,9 @@
 }
 
 
-/* sm */
+/* ----------------------------------------------------------------------
+	SMALL
+ -----------------------------------------------------------------------*/
 
 @media (min-width: 768px) and (max-width: 991px) {
 
@@ -232,13 +240,13 @@
 		}
 	}
 
-.jumbotron.work-with-me-page {
-	height: 43vh;
-	p {
-		font-size: 4rem;
-		margin-top: 190px;
+	.jumbotron.work-with-me-page {
+		height: 43vh;
+		p {
+			font-size: 4rem;
+			margin-top: 190px;
+		}
 	}
-}
 
 
 
@@ -325,7 +333,9 @@
 }
 
 
-/* xs */
+/* ----------------------------------------------------------------------
+	EXTRA SMALL
+ -----------------------------------------------------------------------*/
 @media (max-width: 767px) {
 	
 	.jumbotron.home-page {
@@ -433,8 +443,9 @@
 	}
 }
 
-
-/* XS Portrait */
+/* ----------------------------------------------------------------------
+	EXTRA SMALL PORTRAITS
+ -----------------------------------------------------------------------*/
 
 @media (max-width: 479px) {
 

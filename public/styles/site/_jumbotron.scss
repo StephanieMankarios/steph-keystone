@@ -1,8 +1,8 @@
 .jumbotron.home-page {
-	background-image: url("../images/photos/hero-home.jpg");
+	background-image: url("/images/photos/hero-home.jpg");
 	//	background-attachment: fixed;
 	background-size: 100% auto;
-	background-repeat: no-repeat; // height: 130vh;
+	background-repeat: no-repeat;
 	//	min-height: 400px;
 	// margin-top: 0px;
 	// margin-bottom: 8px;
@@ -17,10 +17,10 @@
 }
 
 .jumbotron.about-page {
-	background-image: url("../images/photos/about-top.jpg");
+	background-image: url("/images/photos/about-top.jpg");
 	//	background-attachment: fixed;
 	background-size: 100% auto;
-	background-repeat: no-repeat; // height: 130vh;
+	background-repeat: no-repeat;
 	//	min-height: 400px;
 	// margin-top: 0px;
 	// margin-bottom: 8px;
@@ -31,9 +31,10 @@
 }
 
 .jumbotron.contact-page {
-	background-image: url("../images/photos/contact.jpg");
+	// background-image: url("../images/photos/work-with-me.jpg");
+	background-image: url("/images/photos/contact.jpg");
 	background-size: 100% auto;
-	background-repeat: no-repeat; // height: 130vh;
+	background-repeat: no-repeat;
 	// margin-top: 0px;
 	// margin-bottom: 8px;
 	p {
@@ -43,10 +44,12 @@
 }
 
 .jumbotron.work-with-me-page {
-	background-image: url("../images/photos/work-with-me.jpg");
+	// background-image: url("/images/photos/contact.jpg");
+	background-image: url("/images/photos/work-with-me.jpg");
 	//	background-attachment: fixed;
 	background-size: 100% auto;
-	background-repeat: no-repeat; // height: 100vh;
+	background-repeat: no-repeat; 
+	// height: 100vh;
 	// margin-top: 0px;
 	// margin-bottom: 8px;
 	p {
