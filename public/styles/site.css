@@ -8623,6 +8623,10 @@ header
   color: white;
   font-size: 1.5rem; }
 
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #00BFF3;
+  background-color: white; }
+
 .main-menu.navbar-default {
   background-color: #fff;
   border-color: #e5e5e5;
