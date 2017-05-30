@@ -51,8 +51,15 @@ keystone.set('nav', {
 	'user-models': 'user-models',
 });
 
+
+// TEST FOR BROWSER-SYNC LIVE RELOAD
+if (keystone.get('env') === 'development') {
+    keystone.set('sass options', {
+        debug: true,
+        force: true
+    });
+}
+
+
 // Start Keystone to connect to your database and initialise the web server
-
-
-
 keystone.start();
