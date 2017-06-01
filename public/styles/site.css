@@ -10106,6 +10106,7 @@ html {
 /* I Want to Read...
 ------------------------------------------------------- */
 .sidebar .read {
+  border: 5px solid #f6f6f6;
   overflow: hidden;
   text-align: center; }
 
@@ -10142,6 +10143,16 @@ html {
   float: left;
   width: 50%; }
 
+.sidebar .read-2 {
+  border-left: 5px solid #f6f6f6; }
+
+.sidebar .read-3 {
+  border-top: 5px solid #f6f6f6;
+  border-left: 5px solid #f6f6f6; }
+
+.sidebar .read-1 {
+  border-top: 5px solid #f6f6f6; }
+
 .sidebar .read-1 img {
   height: 72px; }
 
@@ -10149,7 +10160,7 @@ html {
   height: 72px; }
 
 .sidebar .read-3 img {
-  height: 66px; }
+  height: 94px; }
 
 .sidebar .read-4 img {
   height: 66px; }

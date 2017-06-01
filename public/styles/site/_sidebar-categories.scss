@@ -114,7 +114,7 @@ html {
 ------------------------------------------------------- */
 
 .sidebar .read {
-	// border: 5px solid #f6f6f6;
+	border: 5px solid #f6f6f6;
 	overflow: hidden;
 	text-align: center;
 }
@@ -167,17 +167,19 @@ html {
 
 // health and wellness
 .sidebar .read-2 {
-	// border-left: 5px solid #f6f6f6;
+	border-left: 5px solid #f6f6f6;
 }
 
 // spirituality
 .sidebar .read-3 {
-	// border-top: 5px solid #f6f6f6;
+	border-top: 5px solid #f6f6f6;
+	border-left: 5px solid #f6f6f6;
 }
 
 // self development
 .sidebar .read-1 {
 	// border-right: 5px solid #f6f6f6;
+	border-top: 5px solid #f6f6f6;
 }
 
 
@@ -200,7 +202,7 @@ html {
 }
 
 .sidebar .read-3 img {
-	height: 66px;
+	height: 94px;
 	// width: 50%;
 }
 
