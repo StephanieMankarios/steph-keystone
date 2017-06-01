@@ -11,8 +11,26 @@
             <div class="col-md-8">
 
 
+
+<style>
+.tipue_search_right {
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+#tipue_search_results_count {
+    margin-bottom: 40px;
+}
+.tipue_search_content_title, .tipue_search_content_url {
+    margin-bottom: 10px;
+}
+.tipue_search_content_text {
+    margin-bottom: 40px;
+}
+</style>
+        <div class="post">
+            <div class="post-content">
               <form action="search">
-                <div class="tipue_search_left"><img src="js/tipuesearch/search.png" class="tipue_search_icon">
+                <div class="tipue_search_left">
                 </div>
 
                 <div class="tipue_search_right" action="search">
@@ -22,7 +40,8 @@
                 <div style="clear: both;"></div>
               </form>
               <div id="tipue_search_content"></div>
-
+            </div>
+        </div>
 
             </div>
             {% include "layouts/_sidebar.html" %}
