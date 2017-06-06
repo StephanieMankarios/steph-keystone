@@ -1,8 +1,11 @@
+.jumbotron {
+  background-color: red;
+}
+
 .jumbotron.home-page {
   background-image: url("../images/photos/hero-home.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-  height: 130vh;
   margin-top: 0px;
   margin-bottom: 8px;
   font-family: libre-baskerville-regular;
@@ -19,7 +22,6 @@
   background-image: url("../images/photos/about-top.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-  height: 130vh;
   margin-top: 0px;
   margin-bottom: 8px;
   p {
@@ -32,7 +34,6 @@
   background-image: url("../images/photos/contact.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-  height: 130vh;
   margin-top: 0px;
   margin-bottom: 8px;
   p {
@@ -45,7 +46,6 @@
   background-image: url("../images/photos/work-with-me.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-  height: 100vh;
   margin-top: 0px;
   margin-bottom: 8px;
   p {
