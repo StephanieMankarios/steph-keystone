@@ -10207,9 +10207,6 @@ html {
   padding: 1rem;
   font-size: 1.6rem; }
 
-/*.pricing li + li {
-	border-top: 1px solid #f0f0f0;
-  }*/
 .pricing big {
   font-size: 32px; }
 
@@ -10630,6 +10627,24 @@ html {
   background-image: url("../images/work-with-me/30-squares-hover.png"); }
 
 /* end of 12-class-card/dark slate green */
+.pricing-box a {
+  text-decoration: none;
+  display: block; }
+
+.pricing-box ul li {
+  padding: 10px 10% 0 10%; }
+
+.therapeutic-packages-title {
+  padding-top: 20px; }
+
+.pricing li:first-child {
+  padding: 40px 10% 10px 10%; }
+
+.yoga-classes-offered ul li,
+.yoga-classes-offered p {
+  margin: 0;
+  line-height: 2.428571; }
+
 /* ----------------------------------------------------------------------
 	LARGE
  -----------------------------------------------------------------------*/
