@@ -11,6 +11,8 @@
 	
 {% if data.post %}
 	<title>{{data.post.title}}</title>
+	<!--Pinterest - This lets you see what people are saving from your site and adds your logo to any Pin that came from your site -->
+	<meta name="p:domain_verify" content="b4966c3cdb2a4a03b449d3d38d567e08"/>
 	<meta property="og:title" content="{{data.post.title}}">
 	<meta name="twitter:title" content="{{data.post.title}}">
 	<meta name="description" content="{{data.post.content.brief}}">
@@ -22,12 +24,15 @@
 	<meta name="twitter:image:src" content="{{data.post.image.url}}">
 	<meta property="og:url" content="{{data.post.fullPostUrl}}">
 	<meta name="twitter:url" content="{{data.post.fullPostUrl}}">
+	<meta property="og:site_name" content="stephaniemankarios.com" />
 	<meta property="article:published_time" content="{{data.post.publishedDate}}">
+	<meta property="article:author" content="Stephanie Mankarios" />
 {% else %}
-	<meta name="description" content="general description">            
+	<meta name="description" content="I help people create change and grow, to feel happiness, find purpose and inner peace. I am a Self Development Coach and a Mindfulness Yoga &amp; Meditation Teacher">   
+	<meta property="og:site_name" content="stephaniemankarios.com" />
 	<meta property="og:image" content="{{baseUrl}}/images/logo.png">
 	<meta name="twitter:image:src" content="{{baseUrl}}/images/logo.png">
-	<meta name="keywords" content="Node.js, development, api">
+	<meta name="keywords" content="self development, mindfulness yoga, meditation teacher, bay area">
 {% endif %}    
 
 		{% block title %}
