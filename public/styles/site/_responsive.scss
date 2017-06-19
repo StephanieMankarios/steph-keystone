@@ -9,7 +9,7 @@
 	.jumbotron.home-page {
 		height: 961px;
 		.header-text p:first-child {
-			font-size: 5rem;
+			font-size: 6rem;
 			line-height: 6.5rem;
 			}
 			.header-text p:nth-child(2), .header-text p:nth-child(3) {
@@ -20,8 +20,8 @@
 
 	.jumbotron.about-page {
 		height: 961px;
-		// max-height: 900px;
 		p {
+			font-size: 10rem;
 			margin-top: 350px;
 			margin-right: 300px;
 		}
@@ -84,7 +84,7 @@
 			}
 			.header-text p:nth-child(2),
 			.header-text p:nth-child(3) {
-				font-size: 2rem;
+				font-size: 2.5rem;
 				line-height: 4.5rem;
 			}
 		}
@@ -138,12 +138,12 @@
 	.jumbotron.home-page {
 		height: 662px;
 		.header-text p:first-child {
-			font-size: 4rem;
+			font-size: 5rem;
 			line-height: 5.5rem;
 		}
 		.header-text p:nth-child(2),
 		.header-text p:nth-child(3) {
-			font-size: 2rem;
+			font-size: 2.5rem;
 			line-height: 4.5rem;
 		}
 	}
@@ -151,8 +151,9 @@
 	.jumbotron.about-page {
 		height: 662px;
 				p {
-			margin-top: 250px;
-			margin-right: 300px;
+					font-size: 9rem;
+					margin-top: 250px;
+					margin-right: 300px;
 		}
 	}
 
@@ -210,7 +211,7 @@
 	.jumbotron.home-page {
 		height: 513px;
 	.header-text p:first-child {
-			font-size: 3rem;
+			font-size: 4rem;
 		}
 		.header-text p:nth-child(2),
 		.header-text p:nth-child(3) {
@@ -221,7 +222,7 @@
 	.jumbotron.about-page {
 		height: 513px;
 		p {
-			font-size: 5rem;
+			font-size: 8rem;
 			margin-top: 200px;
 			margin-right: 300px;
 		}
@@ -324,7 +325,7 @@
 			padding-right: 50%;
 		}
 		.header-text p:first-child {
-				font-size: 1.5rem;
+				font-size: 2.5rem;
 			}
 			.header-text p:nth-child(2) {
 				font-size: 1rem;
@@ -354,9 +355,9 @@
 
 	.jumbotron.about-page, .jumbotron.contact-page{
 		height: 43vh;
-			p {
-				font-size: 4.5rem;
-			}
+			// p {
+			// 	font-size: 4.5rem;
+			// }
 	}
 
 	.jumbotron.work-with-me-page  {
@@ -477,7 +478,7 @@
 
 // Index header
 	.jumbotron.home-page .header-text p:nth-child(2), .jumbotron.home-page .header-text p:nth-child(3), .jumbotron.home-page .header-text p:nth-child(5) {
-		font-size: 1.2rem;
+		font-size: 1.5rem;
 	}
 
 	.subscribe-form .input-group-btn .btn, .input-group .form-control {
@@ -497,7 +498,7 @@
 	.jumbotron.home-page, .jumbotron.contact-page {
 		height: 37vh;
 		p {
-			font-size: 1.5rem;
+			font-size: 2.5rem;
 		}
 	}
 
@@ -516,7 +517,7 @@
 .jumbotron.about-page {
 		height: 37vh;
 		p {
-			font-size: 3rem;
+			font-size: 4rem;
 			margin-top: 100px;
 			margin-right: 150px;
 		}
