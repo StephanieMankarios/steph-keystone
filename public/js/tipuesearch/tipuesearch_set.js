@@ -67,7 +67,9 @@ var tipuesearch_string_15 = 'Searches related to';
 
 
 // Internals
-var tipuesearch_pages = ["http://0.0.0.0:3000/", "http://0.0.0.0:3000/about", "http://0.0.0.0:3000/contact", "http://0.0.0.0:3000/work", "http://0.0.0.0:3000/blog"];
+var tipuesearch_pages = ["https://stephaniemankarios.com", "https://stephaniemankarios.com/about", "https://stephaniemankarios.com/contact", "https://stephaniemankarios.com/work", "https://stephaniemankarios.com/blog"];
+
+// var tipuesearch_pages = ["http://0.0.0.0:3000/", "http://0.0.0.0:3000/about", "http://0.0.0.0:3000/contact", "http://0.0.0.0:3000/work", "http://0.0.0.0:3000/blog"];
 
 // Timer for showTime
 var startTimer = new Date().getTime();
