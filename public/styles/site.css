@@ -10230,9 +10230,6 @@ hr.hr-style:after {
   color: #d75a4a;
   font-size: 18px; }
 
-.jumbotron {
-  background-color: red; }
-
 .jumbotron.home-page {
   background-image: url("../images/photos/hero-home.jpg");
   background-size: 100% auto;
