@@ -26,6 +26,21 @@ keystone.init({
 	'session': true,
 	'auth': true,
 	'user model': 'UserModel',
+
+		'wysiwyg additional options': { 'external_plugins': { 'uploadimage': '/js/uploadimage/plugin.min.js' } },
+	'wysiwyg override toolbar': false,
+	'wysiwyg menubar': true,
+	'wysiwyg skin': 'lightgray',
+	'wysiwyg cloudinary images': true,
+	'wysiwyg importcss': '/styles/site.css',
+	'wysiwyg additional buttons': 'searchreplace visualchars,'
+ + ' charmap ltr rtl pagebreak paste, forecolor backcolor,'
+ +' emoticons media, preview print ',
+'wysiwyg additional plugins': 'example, table, advlist, anchor,'
+ + ' autolink, autosave, charmap, contextmenu, '
+ + ' directionality, emoticons, fullpage, hr, media, pagebreak,'
+ + ' paste, preview, print, searchreplace, textcolor,'
+ + ' visualblocks, visualchars, wordcount, image'
 });
 
 // Load your project's Models
