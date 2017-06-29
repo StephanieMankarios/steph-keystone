@@ -32,7 +32,7 @@ keystone.init({
 	'wysiwyg menubar': true,
 	'wysiwyg skin': 'lightgray',
 	'wysiwyg cloudinary images': true,
-	'wysiwyg importcss': '/styles/site.css',
+	'wysiwyg importcss': '/styles/main-tinymce.css',
 	'wysiwyg additional buttons': 'searchreplace visualchars,'
  + ' charmap ltr rtl pagebreak paste, forecolor backcolor,'
  +' emoticons media, preview print ',
