@@ -6,12 +6,12 @@
 
     /* === Stickit === */
 
-    (function () {
-        $("[data-sticky_column]").stickit({
-            scope: StickScope.Parent,
-            top: 0
-        });
-    }());
+    // (function () {
+    //     $("[data-sticky_column]").stickit({
+    //         scope: StickScope.Parent,
+    //         top: 0
+    //     });
+    // }());
 
 
 
