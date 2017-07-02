@@ -9242,7 +9242,6 @@ about me
   font-family: 'Open Sans', sans-serif; }
 
 .about-me-widget {
-  background: url("assets/images/me-cover.jpg") no-repeat;
   background-size: 100%;
   background-color: #fff;
   font-family: 'Open Sans', sans-serif; }
@@ -9935,7 +9934,6 @@ textarea {
   background: rgba(0, 0, 0, 0.55); }
 
 .coming-soon {
-  background: url("assets/images/coming-soon.jpg") no-repeat;
   background-size: cover;
   position: relative;
   height: 100%;
@@ -10146,7 +10144,6 @@ header one
 header two
 ==========*/
 .header-bg {
-  background: url("assets/images/header-3-bg.jpg") no-repeat scroll 0 0;
   background-size: cover; }
 
 .logo2 {
@@ -10228,7 +10225,7 @@ hr.hr-style:after {
   font-size: 18px; }
 
 .jumbotron.home-page {
-  background-image: url("../images/photos/hero-home.jpg");
+  background-image: url("/images/photos/hero-home.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   margin-top: 0px;
@@ -10241,7 +10238,7 @@ hr.hr-style:after {
     background-color: #0097c0; }
 
 .jumbotron.about-page {
-  background-image: url("../images/photos/about-top.jpg");
+  background-image: url("/images/photos/about-top.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   margin-top: 0px;
@@ -10250,7 +10247,7 @@ hr.hr-style:after {
     font-family: libre-baskerville-regular; }
 
 .jumbotron.contact-page {
-  background-image: url("../images/photos/contact.jpg");
+  background-image: url("/images/photos/contact.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   margin-top: 0px;
@@ -10259,7 +10256,7 @@ hr.hr-style:after {
     font-family: libre-baskerville-regular; }
 
 .jumbotron.work-with-me-page {
-  background-image: url("../images/photos/work-with-me.jpg");
+  background-image: url("/images/photos/work-with-me.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   margin-top: 0px;
@@ -10514,14 +10511,14 @@ html {
   margin: auto;
   width: 67px;
   height: 60px;
-  background-image: url("../images/work-with-me/open-arms.png"); }
+  background-image: url("/images/work-with-me/open-arms.png"); }
 
 .p-1-month-student-package:hover .img {
   display: block;
   margin: auto;
   width: 67px;
   height: 60px;
-  background-image: url("../images/work-with-me/open-arms-hover.png"); }
+  background-image: url("/images/work-with-me/open-arms-hover.png"); }
 
 /* end of 1-month-student-package/purple */
 /* start of 1-month-package/dark slate green */
@@ -10553,14 +10550,14 @@ html {
   margin: auto;
   width: 104px;
   height: 60px;
-  background-image: url("../images/work-with-me/sun.png"); }
+  background-image: url("/images/work-with-me/sun.png"); }
 
 .p-1-month-package:hover .img {
   display: block;
   margin: auto;
   width: 104px;
   height: 60px;
-  background-image: url("../images/work-with-me/sun-hover.png"); }
+  background-image: url("/images/work-with-me/sun-hover.png"); }
 
 /* end of 1-month-package/dark slate green */
 /* start of 3-month-package/indian red */
@@ -10592,14 +10589,14 @@ html {
   margin: auto;
   width: 54px;
   height: 60px;
-  background-image: url("../images/work-with-me/flower.png"); }
+  background-image: url("/images/work-with-me/flower.png"); }
 
 .p-3-month-package:hover .img {
   display: block;
   margin: auto;
   width: 54px;
   height: 60px;
-  background-image: url("../images/work-with-me/flower-hover.png"); }
+  background-image: url("/images/work-with-me/flower-hover.png"); }
 
 /* end of 3-month-package/indian red */
 /* start of 6-month-package/foird */
@@ -10631,14 +10628,14 @@ html {
   margin: auto;
   width: 54px;
   height: 60px;
-  background-image: url("../images/work-with-me/pray-hands.png"); }
+  background-image: url("/images/work-with-me/pray-hands.png"); }
 
 .p-6-month-package:hover .img {
   display: block;
   margin: auto;
   width: 54px;
   height: 60px;
-  background-image: url("../images/work-with-me/pray-hands-hover.png"); }
+  background-image: url("/images/work-with-me/pray-hands-hover.png"); }
 
 /* end of 6-month-package/fiord */
 /* start of 12-month-package/purple */
@@ -10670,14 +10667,14 @@ html {
   margin: auto;
   width: 64px;
   height: 60px;
-  background-image: url("../images/work-with-me/lotus.png"); }
+  background-image: url("/images/work-with-me/lotus.png"); }
 
 .p-12-month-package:hover .img {
   display: block;
   margin: auto;
   width: 64px;
   height: 60px;
-  background-image: url("../images/work-with-me/lotus-hover.png"); }
+  background-image: url("/images/work-with-me/lotus-hover.png"); }
 
 /* end of 12-month-package/purple */
 /* start of additional-email-coaching/fiord */
@@ -10709,14 +10706,14 @@ html {
   margin: auto;
   width: 60px;
   height: 60px;
-  background-image: url("../images/work-with-me/30-circles.png"); }
+  background-image: url("/images/work-with-me/30-circles.png"); }
 
 .p-additional-email-coaching:hover .img {
   display: block;
   margin: auto;
   width: 60px;
   height: 60px;
-  background-image: url("../images/work-with-me/30-circles-hover.png"); }
+  background-image: url("/images/work-with-me/30-circles-hover.png"); }
 
 /* end of additional-email-coach/fiord */
 /* start of 1-class-card/indian red */
@@ -10748,14 +10745,14 @@ html {
   margin: auto;
   width: 54px;
   height: 60px;
-  background-image: url("../images/work-with-me/sun-arms-up.png"); }
+  background-image: url("/images/work-with-me/sun-arms-up.png"); }
 
 .p-1-class-card:hover .img {
   display: block;
   margin: auto;
   width: 54px;
   height: 60px;
-  background-image: url("../images/work-with-me/sun-arms-up-hover.png"); }
+  background-image: url("/images/work-with-me/sun-arms-up-hover.png"); }
 
 /* end of 1-class-card/indian red */
 /* start of 5-class-card/foird */
@@ -10787,14 +10784,14 @@ html {
   margin: auto;
   width: 42px;
   height: 60px;
-  background-image: url("../images/work-with-me/cupped-hands.png"); }
+  background-image: url("/images/work-with-me/cupped-hands.png"); }
 
 .p-5-class-card:hover .img {
   display: block;
   margin: auto;
   width: 42px;
   height: 60px;
-  background-image: url("../images/work-with-me/cupped-hands-hover.png"); }
+  background-image: url("/images/work-with-me/cupped-hands-hover.png"); }
 
 /* end of 5-class-card/fiord */
 /* start of 10-class-card/purple */
@@ -10826,14 +10823,14 @@ html {
   margin: auto;
   width: 64px;
   height: 60px;
-  background-image: url("../images/work-with-me/lotus.png"); }
+  background-image: url("/images/work-with-me/lotus.png"); }
 
 .p-10-class-card:hover .img {
   display: block;
   margin: auto;
   width: 64px;
   height: 60px;
-  background-image: url("../images/work-with-me/lotus-hover.png"); }
+  background-image: url("/images/work-with-me/lotus-hover.png"); }
 
 /* end of 10-class-card/purple */
 /* start of 12-class-card/dark slate green */
@@ -10865,14 +10862,14 @@ html {
   margin: auto;
   width: 60px;
   height: 60px;
-  background-image: url("../images/work-with-me/30-squares.png"); }
+  background-image: url("/images/work-with-me/30-squares.png"); }
 
 .p-12-class-card:hover .img {
   display: block;
   margin: auto;
   width: 60px;
   height: 60px;
-  background-image: url("../images/work-with-me/30-squares-hover.png"); }
+  background-image: url("/images/work-with-me/30-squares-hover.png"); }
 
 /* end of 12-class-card/dark slate green */
 .pricing-box a {
@@ -11251,22 +11248,22 @@ html {
   margin-right: 0 !important; }
 
 .social a.facebook {
-  background-image: url("../images/social-media/bg-facebook.png"); }
+  background-image: url("/images/social-media/bg-facebook.png"); }
 
 .social a.twitter {
-  background-image: url("../images/social-media/bg-twitter.png"); }
+  background-image: url("/images/social-media/bg-twitter.png"); }
 
 .social a.youtube {
-  background-image: url("../images/social-media/bg-youtube.png"); }
+  background-image: url("/images/social-media/bg-youtube.png"); }
 
 .social a.instagram {
-  background-image: url("../images/social-media/bg-instagram.png"); }
+  background-image: url("/images/social-media/bg-instagram.png"); }
 
 .social a.pinterest {
-  background-image: url("../images/social-media/bg-pinterest.png"); }
+  background-image: url("/images/social-media/bg-pinterest.png"); }
 
 .social a.medium1 {
-  background-image: url("../images/social-media/bg-medium.png"); }
+  background-image: url("/images/social-media/bg-medium.png"); }
 
 .social a.opacity:hover {
   opacity: 0.75; }
