@@ -6,7 +6,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,600");
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -8809,8 +8809,7 @@ a:hover {
 
 ul {
   padding: 0;
-  margin: 0;
-  list-style-type: none; }
+  margin: 0; }
   ul li {
     margin-bottom: 25px; }
 
@@ -9682,8 +9681,6 @@ blog css
 
 .entry-content ul {
   padding-left: 4rem; }
-  .entry-content ul li {
-    padding-bottom: 1rem; }
 
 .entry-header a {
   text-align: center; }
