@@ -68,9 +68,9 @@ var tipuesearch_string_15 = 'Searches related to';
 
 // var tipuesearch_pages = ["https://www.stephaniemankarios.com", "https://www.stephaniemankarios.com/about", "https://www.stephaniemankarios.com/contact", "https://www.stephaniemankarios.com/work", "https://www.stephaniemankarios.com/blog", "https://www.stephaniemankarios.com/blog/post/how-30-days-without-sugar-has-positively-shifted-my-life"];
 
-// var tipuesearch_pages = ["https://www.williamdiep.com", "https://www.williamdiep.com/about", "https://www.williamdiep.com/contact", "https://www.williamdiep.com/work", "https://www.williamdiep.com/blog", "https://www.williamdiep.com/blog/post/how-30-days-without-sugar-has-positively-shifted-my-life"];
+var tipuesearch_pages = ["https://www.williamdiep.com", "https://www.williamdiep.com/about", "https://www.williamdiep.com/contact", "https://www.williamdiep.com/work", "https://www.williamdiep.com/blog", "https://www.williamdiep.com/blog/post/how-30-days-without-sugar-has-positively-shifted-my-life"];
 
-var tipuesearch_pages = ["http://0.0.0.0:3000/", "http://0.0.0.0:3000/about", "http://0.0.0.0:3000/contact", "http://0.0.0.0:3000/work", "http://0.0.0.0:3000/blog", "http://0.0.0.0:3000/blog/post/how-30-days-without-sugar-has-positively-shifted-my-life"];
+// var tipuesearch_pages = ["http://0.0.0.0:3000/", "http://0.0.0.0:3000/about", "http://0.0.0.0:3000/contact", "http://0.0.0.0:3000/work", "http://0.0.0.0:3000/blog", "http://0.0.0.0:3000/blog/post/how-30-days-without-sugar-has-positively-shifted-my-life"];
 
 // Timer for showTime
 var startTimer = new Date().getTime();
