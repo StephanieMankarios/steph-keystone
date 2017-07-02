@@ -27,7 +27,7 @@ keystone.init({
 	'auth': true,
 	'user model': 'UserModel',
 
-		'wysiwyg additional options': { 'external_plugins': { 'uploadimage': '/js/uploadimage/plugin.min.js' } },
+		'wysiwyg additional options': { 'external_plugins': { 'uploadimage': '/js/lib/uploadimage/plugin.min.js' } },
 	'wysiwyg override toolbar': false,
 	'wysiwyg menubar': true,
 	'wysiwyg skin': 'lightgray',
