@@ -69,11 +69,12 @@ keystone.set('nav', {
 
 // TEST FOR BROWSER-SYNC LIVE RELOAD
 if (keystone.get('env') === 'development') {
-    keystone.set('sass options', {
+		keystone.set('sass options', {
         debug: true,
         force: true
     });
 }
+keystone.set('cloudinary secure', true);
 
 
 // Start Keystone to connect to your database and initialise the web server
