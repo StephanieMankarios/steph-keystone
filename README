@@ -1,0 +1,26 @@
+# TECHNOLOGIES
+## Client-side:
+* NodeJS https://nodejs.org/en/download/
+* MongoDB https://www.mongodb.com/download-center#atlas
+* KeystoneJS http://keystonejs.com/
+* SCSS http://sass-lang.com/install
+* Nunjucks (for templating engine) https://mozilla.github.io/nunjucks/
+* GulpJS (Not in use at the moment since KeystoneJS compiles upon runtime. It's there in case you'd like to run other * builds. Otherwise, please disregard it)
+
+## Server-side:
+* Digital Ocean
+* Ubuntu 16.04 LTS
+* ngix for web server and reverse proxy
+* Let's Encrypt for HTTPS (autorenews. Current latest TLS 1.2 protocol)
+
+# GETTING STARTED
+Please download all client-side technologies before cloning repo. This web app follows a traditional MVC. It's a simple NodeJS app that primarily use templating engine to generate static webpages. Nunjucks is similar to Handlebars and Jade.
+
+File structure: http://keystonejs.com/docs/getting-started/#gettingstarted-projectstructure
+Our project uses .nunjucks instead of .jade. 
+
+Login to Digital Ocean
+Set up and connect via SSH
+https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2
+https://www.digitalocean.com/community/tutorials/how-to-connect-to-your-droplet-with-ssh
+
