@@ -13,6 +13,7 @@
 * ngix for web server and reverse proxy
 * Let's Encrypt for HTTPS (autorenews. Current latest TLS 1.2 protocol)
 
+
 # GETTING STARTED
 Please download all client-side technologies before cloning repo. This web app follows a traditional MVC. It's a simple NodeJS app that primarily use templating engine to generate static webpages. Nunjucks is similar to Handlebars and Jade.
 
