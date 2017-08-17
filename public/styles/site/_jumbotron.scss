@@ -1,68 +1,52 @@
 .jumbotron.home-page {
-  background: linear-gradient(
-    rgba(20,20,20, .2), 
-    rgba(20,20,20, .2)),
-    url("/images/photos/hero-home.jpg");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  margin-top: 0px;
-  margin-bottom: 8px;
-  font-family: libre-baskerville-regular;
-  a {
-    background-color: $primary-color;
-    border-color: $primary-color;
-  }
-  .btn-primary:hover {
-    background-color: $dark;
-  }
+	background: linear-gradient( rgba(20, 20, 20, .2), rgba(20, 20, 20, .2)), url("/images/photos/hero-home.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	margin-bottom: 8px;
+	font-family: libre-baskerville-regular;
+	a {
+		background-color: $primary-color;
+		border-color: $primary-color;
+	}
+	.btn-primary:hover {
+		background-color: $dark;
+	}
 }
 
 .jumbotron.about-page {
-  background: linear-gradient(
-    rgba(20,20,20, .2), 
-    rgba(20,20,20, .2)),
-    url("/images/photos/about-top.jpg");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  margin-top: 0px;
-  margin-bottom: 8px;
-  p {
-    // font-size: 7rem;
-    font-family: libre-baskerville-regular;
-  }
+	background: linear-gradient( rgba(20, 20, 20, .2), rgba(20, 20, 20, .2)), url("/images/photos/about-top.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	margin-bottom: 8px;
+	p {
+		font-family: libre-baskerville-regular;
+	}
 }
 
 .jumbotron.contact-page {
-  background: 
-  linear-gradient(
-    rgba(20,20,20, .2), 
-    rgba(20,20,20, .2)),
-    url("/images/photos/contact.jpg");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  margin-top: 0px;
-  margin-bottom: 8px;
-  p {
-    // font-size: 7rem;
-    font-family: libre-baskerville-regular;
-  }
+	background: linear-gradient( rgba(20, 20, 20, .2), rgba(20, 20, 20, .2)), url("/images/photos/contact.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	margin-bottom: 8px;
+	p {
+		font-family: libre-baskerville-regular;
+	}
 }
 
 .jumbotron.work-with-me-page {
-  background: linear-gradient(
-    rgba(20,20,20, .2), 
-    rgba(20,20,20, .2)),
-    url("/images/photos/work-with-me.jpg");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  margin-top: 0px;
-  margin-bottom: 8px;
-  p {
-    // font-size: 7rem;
-    font-family: libre-baskerville-regular;
-  }
+	background: linear-gradient( rgba(20, 20, 20, .2), rgba(20, 20, 20, .2)), url("/images/photos/work-with-me.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	margin-bottom: 8px;
+	p {
+		font-family: libre-baskerville-regular;
+	}
 }
 
 .navbar {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
